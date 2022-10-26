@@ -40,7 +40,7 @@ Der Output des zeige-modul Befehl würde, z.B. wie folgt aussehen:
 ## Architektur
 ___
 Die verwendeten Bibiliotheken und Programmiersprachen, sowie deren Version lassen
-sich in der (requirements.txt)[requirements.txt] Datei nachlesen.
+sich in der [requirements.txt](requirements.txt) Datei nachlesen.
 
 Um das Projekt möglichst simpel zu halten, habe ich lediglich folgendes verwendet:
 
@@ -52,7 +52,7 @@ SQL-Queries ausführen und die benötigten Daten in die Datenbank im Backend sch
 oder auslesen.
 
 Einige der Methoden können spezifische Fehler aufwerfen, welche ich in  
-Error Klassen definiert habe. Diese lassen sich (hier)[] finden.
+Error Klassen definiert habe. Diese lassen sich [hier](Skript/Fehler.py) finden.
 Hierüber stelle ich sicher, dass Nutzer korrekte Werte eingeben.
 Wenn ein Nutzer z. B. ein Modul löschen will, welches nicht exisiert, wird ein
 VorlesungNotFound Error geraised.
@@ -62,24 +62,24 @@ ___
 
 ### Hinzufügen einer Zeit für eine Vorlesung, die noch nicht existiert:
 
-![]()
+![](Bilder/modul_neu_anlegen.png)
 
 ### Löschen eines Moduls welches nicht existiert:
 
-![]()
+![](Bilder/nicht_existiert.png)
 
-### Eingabe einer negativen Zahl für das Reduzieren der Modulzeiten:
+### Eingabe eines falschen Datentyps in eine Funktion:
 
-![]()
+![](Bilder/falscher_datentyp.png)
 
 ## Eigenimplementierung
 ___
 Um das Programm bei sich ausführen zu können benötigt man folgendes:
 
-Sämtliche Programmiersprachen und Bibiliotheken aus der (requirements.txt)[] Datei.
+Sämtliche Programmiersprachen und Bibiliotheken aus der [requirements.txt](requirements.txt) Datei.
 
 Eine MySQL Datenbank mit dem Namen: Lernzeit_app
-Zusätzlich müssen die eigenen MySQL Zugangsdaten in die (secrets.py)[] Datei
+Zusätzlich müssen die eigenen MySQL Zugangsdaten in die [secrets.py](Skript/secrets.py) Datei
 eingetragen werden.
 
 Eine Unix-Kommando fähige Kommandozeile um Funktionen auszuführen.
