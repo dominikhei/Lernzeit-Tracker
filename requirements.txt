@@ -1,0 +1,6 @@
+python==3.9.12
+pandas==1.4.3
+mysql==8.0.29
+mysql-connector==2.2.9
+typer==0.6.1
+rich==12.6.0
